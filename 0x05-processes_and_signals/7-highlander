@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # infinite loop that handles SIGTERM
 
-trap 'echo "I am invincible!!!"' SIGTERM
+trap 'echo "I am invincible!!!"; fflush' SIGTERM  # fflush works in some shells
 
 while true; do
     echo "To infinity and beyond"
