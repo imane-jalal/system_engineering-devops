@@ -1,1 +1,1 @@
-Shell variables project
+Shell variables expansions project
