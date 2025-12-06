@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# List all current processes with UID and command only
+# Display the script's own PID, UID, and full command
 
-ps -eo uid,cmd --no-headers
+ps -o uid= -o cmd= -p $$
