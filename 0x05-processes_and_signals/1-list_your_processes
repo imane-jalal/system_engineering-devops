@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Display all running processes showing UID and full command
+# Display all running processes with UID and full command
 
 ps -e -o uid=,args= --forest
